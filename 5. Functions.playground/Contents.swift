@@ -5,23 +5,23 @@ func myFunction()
     print("function called")
 }
 
-myFunction() // fonksiyonu çağırmamızla birlikte yukarıda tanımladığımız fonksiyon içindeki komutlar çalışır.
+myFunction()
 
 // INPUT & OUTPUT && RETURN
 
-func sumFunction(x: Int, y: Int) // int tipinde iki adet input alacak
+func sumFunction(x: Int, y: Int)
 {
     print(x+y)
 }
 
-sumFunction(x: 2, y: 3)  // tanımladığımız fonksiyonun alacağı inputları hangi tipte tanımlamışsak o tipte değer gönderebiliriz
+sumFunction(x: 2, y: 3)
 
-func sumFunction2(x: Int, y: Int) -> Int  // fonksiyon int tipinde bir değer return edecek anlamındadır
+func sumFunction2(x: Int, y: Int) -> Int
 {
     return x+y
 }
 
-var x = sumFunction2(x: 4, y: 8) // fonksiyon int tipinde 12'yi döndürüp x adlı değişkende bu değeri tutar.
+var x = sumFunction2(x: 4, y: 8) 
 
 print(x)
 

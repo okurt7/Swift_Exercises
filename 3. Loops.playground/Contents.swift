@@ -1,4 +1,4 @@
-import Cocoa //UIKit kütüphanesini buraya import et demek
+import Cocoa
 
 var myNumber = 1
 
@@ -18,9 +18,9 @@ while number <= 10
     number += 1
 }
 
-var characterAlive = true // bir değeri bir değere eşitlerken tek eşittir kullanırız.
+var characterAlive = true
 
-while characterAlive == true // bir değer bir değere eşit mi diye kontrol ederken iki eşittir kullanırız.
+while characterAlive == true
 {
     print("character alive")
     characterAlive = false
@@ -33,12 +33,11 @@ while characterAlive == true // bir değer bir değere eşit mi diye kontrol ede
 4 != 6
 
 
-
 //FOR LOOP
 
 var myFruitArray = ["Banana", "Apple", "Orange"]
 
-for fruit in myFruitArray // myFruitArray dizisine git, dizi içindeki her bir elemanı sırasıyla fruit isimli değişkene ata demektir. ta ki dizide eleman kalmayana kadar
+for fruit in myFruitArray
 {
     print(fruit)
 }
@@ -52,7 +51,7 @@ for num in myNumbers
 }
 
 
-for myNewInt in 1 ... 5 // myNewInt adlı değişkene sırasıyla 1'den 5'e kadar değerleri ata demektir
+for myNewInt in 1 ... 5
 {
     print(myNewInt)
 }
